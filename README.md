@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - osTicket Setup and Configuration</h1>
+<h1>osTicket - Setup and Configuration</h1>
 Simple Steps:
 
 Setting Up a Help Desk System
