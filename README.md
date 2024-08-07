@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>Lab - osTicket Setup adn COnfiguration</h1>
+<h1>Lab - osTicket Setup and Configuration</h1>
 
 - Simple Steps and Description:
   
