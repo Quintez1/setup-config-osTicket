@@ -36,51 +36,63 @@ Navigate to the Azure Portal.
 Create a new Resource Group (e.g., OSTicketLab).
 Create a Windows 10 VM in this Resource Group with 2-4 Virtual CPUs.
 Allow the VM to create a new Virtual Network (Vnet).
-Part 2: Installation
+<img src="https://i.imgur.com/ui6mnSa.png" alt="VM Creation"/>
+
+- Part 2: Installation
 Set up the VM:
 Name the VM 'Vm-osticket'.
 Set up a username (e.g., labuser) and password (e.g., osTicketPassword1!).
+<img src="https://i.imgur.com/4ocYzi6.png" alt="VM Installation"/>
 
 - Install IIS and Prerequisites:
 
-Log into the VM using Remote Desktop.
-Open "Server Manager" and select "Add roles and features".
-Install the Web Server (IIS) role with the following features:
-Web Server -> Common HTTP Features -> [X] CGI
-Web Server -> Application Development -> [X] CGI
-Management Tools -> [X] IIS Management Console
-Download and install PHP Manager for IIS and the Rewrite Module from the provided links.
-Create a directory C:\PHP and download PHP 7.3.8. Unzip it into C:\PHP.
-Install VC_redist.x86.exe and MySQL 5.5.62.
+- Log into the VM using Remote Desktop.
+- Open "Server Manager" and select "Add roles and features".
+- Install the Web Server (IIS) role with the following features:
+- Web Server -> Common HTTP Features -> [X] CGI
+- Web Server -> Application Development -> [X] CGI
+- Management Tools -> [X] IIS Management Console
+- Download and install PHP Manager for IIS and the Rewrite Module from the provided links.
+- Create a directory C:\PHP and download PHP 7.3.8. Unzip it into C:\PHP.
+- Install VC_redist.x86.exe and MySQL 5.5.62.
+<img src="https://i.imgur.com/nBMRQQf.png" alt="Install ISS"/>
+<img src="https://i.imgur.com/jbG4cD6.png" alt="Install ISS"/>
 
 - Install osTicket:
 
 Download osTicket from the provided link.
 Extract the "upload" folder to C:\inetpub\wwwroot and rename it to "osTicket".
 Open IIS Manager, stop and start the server, and browse to http://localhost/osTicket.
-Configure Database:
+<img src="https://i.imgur.com/k91kEqu.png" alt="Install osTicket"/>
+<img src="https://i.imgur.com/KYj1eVf.png" alt="Install osTicket"/>
+
+- Configure Database:
 
 Download and install HeidiSQL.
 Create a new session with root/Password1 and create a database called osTicket.
 Complete the osTicket setup in the browser using the database details.
-Part 3: Post Installation Setup
+<img src="https://i.imgur.com/KYj1eVf.png" alt="Install HeidiSQL"/>
+<img src="https://i.imgur.com/ZbQ0uNU.png" alt="Install HeidiSQL"/>
+<img src="https://i.imgur.com/jPFkABR.png" alt="Install HeidiSQL"/>
+
+
+- Part 3: Post Installation Setup
 Configure Roles and Departments:
 
 In the osTicket Admin Panel, go to Agents -> Roles and create roles such as "Supreme Admin".
 Go to Agents -> Departments and create departments like "System Administrators".
-Allow Ticket Creation:
+<img src="https://i.imgur.com/CGyWMB5.png" alt="Configure Roles and Department"/>
+
+- Allow Ticket Creation:
 
 Go to Settings -> User Settings and configure it to allow anyone to create tickets.
-Add Agents and Users:
+<img src="https://i.imgur.com/38huFkb.png" alt="Ticket Creation"/>
+
+- Add Agents and Users:
 
 Add agents (e.g., Jane, John) in the Agents section.
 Add users (e.g., Karen, Ken) in the Users section.
 Configure SLA and Help Topics as needed.
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<img src="https://i.imgur.com/2zWkvTk.png" alt="Add Agents"/>
+<img src="https://i.imgur.com/KhnnQfn.png" alt="Add Agents"/>
+<img src="https://i.imgur.com/OzhLvXT.png" alt="Add Users"/>
