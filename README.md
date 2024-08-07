@@ -2,18 +2,19 @@
 <img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Setup and Configuration</h1>
-Simple Steps:
+<h1>Lab - osTicket Setup adn COnfiguration</h1>
 
-Setting Up a Help Desk System
-Description:
+- Simple Steps and Description:
+- 
 We'll set up a help desk ticketing system using osTicket on a cloud Windows computer. This system helps manage IT support requests.
 
-Create a Virtual Machine: Make a Windows 10 computer in the cloud.
-Install Necessary Software: Set up web server software and a database.
-Install osTicket: Put osTicket on the computer.
-Configure the Help Desk: Set up user roles, departments, and support teams.
-Practice Using the Help Desk: Create and manage support tickets..<br />
+- Create a Virtual Machine: Make a Windows 10 computer in the cloud.
+- Install Necessary Software: Set up web server software and a database.
+- Install osTicket: Put osTicket on the computer.
+- Configure the Help Desk: Set up user roles, departments, and support teams.
+- Practice Using the Help Desk: Create and manage support tickets.
+  
+This lab guides you through setting up a help desk ticketing system using osTicket on an Azure virtual machine. You'll install the necessary software, configure a MySQL database, and set up osTicket to manage help desk operations. This project provides hands-on experience in deploying web-based applications and managing IT support systems..<br />
 
 <h2>Environments and Technologies Used</h2>
 
