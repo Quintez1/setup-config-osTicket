@@ -71,10 +71,9 @@ Open IIS Manager, stop and start the server, and browse to http://localhost/osTi
 Download and install HeidiSQL.
 Create a new session with root/Password1 and create a database called osTicket.
 Complete the osTicket setup in the browser using the database details.
+
 <img src="https://i.imgur.com/KYj1eVf.png" alt="Install HeidiSQL"/>
-
 <img src="https://i.imgur.com/ZbQ0uNU.png" alt="Install HeidiSQL"/>
-
 <img src="https://i.imgur.com/jPFkABR.png" alt="Install HeidiSQL"/>
 
 
